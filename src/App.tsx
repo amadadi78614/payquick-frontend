@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, createContext, useContext } from 'react';
 import './styles.css';
-import myLogo from './assets/pq_logo.JPG';
+import myLogo from './assets/pq_logo.jpg';
 
 // ==================== TYPES ====================
 interface User {
