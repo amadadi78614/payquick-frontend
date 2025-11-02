@@ -437,7 +437,7 @@ const App: React.FC = () => {
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [activeTab, setActiveTab] = useState('dashboard');
   const [showBiometric, setShowBiometric] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [, setLoading] = useState(false);
 
   // Theme toggle
   const toggleTheme = useCallback(() => {
