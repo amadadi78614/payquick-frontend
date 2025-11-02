@@ -575,7 +575,7 @@ const LoginScreen: React.FC = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="logo-section">
-          <img src={myLogo} alt="PayQuick Logo" className="logo-image"
+          <img src={myLogo} alt="PayQuick Logo" className="logo-image" />
           <h1>PayQuick</h1>
           <p>Your Earned Wages, Instantly</p>
         </div>
