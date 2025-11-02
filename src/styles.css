@@ -1979,3 +1979,21 @@ tbody tr:last-child td {
     background: #fff;
   }
 }
+/*
+ * Logo Styling
+ * -------------------
+ */
+
+.logo-image {
+  /* Set a specific height for your logo */
+  height: 40px; 
+  
+  /* Width will adjust automatically to keep the right shape */
+  width: auto; 
+  
+  /* Ensures the whole logo is visible without being stretched */
+  object-fit: contain; 
+  
+  /* If the logo is in a flex container, this prevents it from shrinking */
+  flex-shrink: 0; 
+}

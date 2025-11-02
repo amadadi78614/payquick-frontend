@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, createContext, useContext } from 'react';
 import './styles.css';
+import myLogo from './assets/pq_logo.JPG';
 
 // ==================== TYPES ====================
 interface User {
@@ -574,7 +575,7 @@ const LoginScreen: React.FC = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="logo-section">
-          <div className="logo">💰</div>
+          <img src={myLogo} alt="PayQuick Logo" className="logo-image"
           <h1>PayQuick</h1>
           <p>Your Earned Wages, Instantly</p>
         </div>
@@ -632,7 +633,7 @@ const Header: React.FC = () => {
     <header className="app-header">
       <div className="header-content">
         <div className="brand">
-          <span className="logo">💰</span>
+          <img src={myLogo} alt="PayQuick Logo" className="logo-image" />
           <span className="brand-name">PayQuick</span>
         </div>
         <div className="header-actions">
@@ -1264,7 +1265,7 @@ const AdminDashboard: React.FC = () => {
     <div className="admin-dashboard">
       <header className="admin-header">
         <div className="admin-brand">
-          <span className="logo">🏢</span>
+          <img src={myLogo} alt="PayQuick Admin Logo" className="logo-image" />
           <span>PayQuick Admin</span>
         </div>
         <div className="admin-actions">
