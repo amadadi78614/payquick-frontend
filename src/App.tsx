@@ -184,7 +184,7 @@ class ApiService {
     }
   }
 
-  private getMockResponse(endpoint: string, options: RequestInit) {
+  private getMockResponse(endpoint: string, _options: RequestInit) {
     // Mock responses for demo purposes
     if (endpoint.includes('/auth/login')) {
       return { 
